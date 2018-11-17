@@ -15,19 +15,19 @@ PyTorch 从入门到精通
 
 - [知乎：新手如何入门PyTorch](https://www.zhihu.com/question/55720139)
 
-- github
+- **github**
 
 - - [pytorch](https://github.com/pytorch/pytorch)：官网github
-  - [pytorch-examples](https://github.com/pytorch/examples)：官网示例
-  - [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
+  - **（强力推荐）**[pytorch-examples](https://github.com/pytorch/examples)：官网示例
+  - **（强力推荐）**[pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
   - [PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)
   - [DLwithPyTorch](https://github.com/svishnu88/DLwithPyTorch)
-  - [pytorch-book](https://github.com/chenyuntc/pytorch-book)
+  - **（推荐）**[pytorch-book](https://github.com/chenyuntc/pytorch-book)：建议买书配套学习
   - [the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)
   - [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
   - [pytorch-beginer](https://github.com/L1aoXingyu/pytorch-beginner)
 
-- 书籍
+- **书籍**
 
 - - 深度学习入门之PyTorch  [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)  
 
