@@ -1,3 +1,199 @@
+> Summary：Python1.0安装教程
+>
+> Author：Amusi
+>
+> Date：2018-12-20
+>
+> github：https://github.com/amusi/PyTorch-From-Zero-To-One
+>
+> 知乎：https://www.zhihu.com/people/amusi1994
+>
+> 微信公众号：CVer
+
+本文是在Ubuntu下进行PyTorch1.0正式版的安装，Windows安装教程与之类似，也可以参考该教程进行安装：https://blog.csdn.net/amusi1994/article/details/80077667
+
+# 环境说明
+
+- OS：Ubuntu16.04
+- CUDA：8.0
+- cudnn：6.0
+- Python（conda）：3.6.4
+
+# 安装教程
+
+官网：https://pytorch.org/
+
+检查Python环境
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015720334.png)
+
+根据当前系统环境点击选项
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015731149.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FtdXNpMTk5NA==,size_16,color_FFFFFF,t_70)
+
+在终端输入匹配的安装PyTorch1.0的命令
+
+```
+conda install pytorch torchvision cuda80 -c pytorch
+```
+
+回车进行安装，此时会有如下提示，当搜索到PyTorch1.0的相关packages时，输入 y，确定继续安装。
+
+> 注：此时可能会找不到相应的packages，比如Windows环境下。所以你可以添加相关的搜索源，如清华的源。此处可以自行百度解决。
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015817515.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FtdXNpMTk5NA==,size_16,color_FFFFFF,t_70)
+
+此时需要等待一会儿（具体看网速），因为PyTorch 1.0.0这个packages有437.5 MB大小。
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015826530.png)
+
+安装成功后，会提示done。
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015837555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FtdXNpMTk5NA==,size_16,color_FFFFFF,t_70)
+
+加载PyTorch并输出版本号，验证是否安装成功。
+
+```
+python
+import torch
+print(torch.__version__)
+```
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015853962.png)
+
+# 测试示例
+
+## 测试1：检查CUDA和CUDNN
+
+创建并打开新的脚本文件pytorch_cudn_cudnn_test.py
+
+```
+touch pytorch_cudn_cudnn_test.py
+gedit pytorch_cudn_cudnn_test.py 
+```
+
+写入测试代码
+
+```python
+# Summary: 检测当前Pytorch和设备是否支持CUDA和cudnn
+# Author:  Amusi
+# Date:    2018-12-20 
+# github:  https://github.com/amusi/PyTorch-From-Zero-To-One
+
+import torch
+ 
+if __name__ == '__main__':
+	print("Support CUDA ?: ", torch.cuda.is_available())
+	x = torch.Tensor([1.0])
+	xx = x.cuda()
+	print(xx)
+ 
+	y = torch.randn(2, 3)
+	yy = y.cuda()
+	print(yy)
+ 
+	zz = xx + yy
+	print(zz)
+ 
+	# CUDNN TEST
+	from torch.backends import cudnn
+	print("Support cudnn ?: ",cudnn.is_acceptable(xx))
+```
+
+运行该测试代码
+
+```
+python pytorch_cudn_cudnn_test.py
+```
+
+输入结果如下：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015916862.png)
+
+
+## 测试2：Tensors
+
+创建并打开新的脚本文件pytorch_tensors.py
+
+```
+touch pytorch_tensors.py
+gedit pytorch_tensors.py
+```
+
+写入测试代码：
+
+```
+# Summary：PyTorch的Tensor基础知识
+# Author:  Amusi
+# Date:    2018-12-20 
+# github:  https://github.com/amusi/PyTorch-From-Zero-To-One
+# Reference: http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#pytorch-tensors
+ 
+import torch
+ 
+dtype = torch.FloatTensor
+# dtype = torch.cuda.FloatTensor # Uncomment this to run on GPU
+ 
+# N is batch size; D_in is input dimension;
+# H is hidden dimension; D_out is output dimension.
+N, D_in, H, D_out = 64, 1000, 100, 10
+ 
+# Create random input and output data
+x = torch.randn(N, D_in).type(dtype)
+y = torch.randn(N, D_out).type(dtype)
+ 
+# Randomly initialize weights
+w1 = torch.randn(D_in, H).type(dtype)
+w2 = torch.randn(H, D_out).type(dtype)
+ 
+learning_rate = 1e-6
+for t in range(500):
+    # Forward pass: compute predicted y
+    h = x.mm(w1)
+    h_relu = h.clamp(min=0)
+    y_pred = h_relu.mm(w2)
+ 
+    # Compute and print loss
+    loss = (y_pred - y).pow(2).sum()
+    print(t, loss)
+ 
+    # Backprop to compute gradients of w1 and w2 with respect to loss
+    grad_y_pred = 2.0 * (y_pred - y)
+    grad_w2 = h_relu.t().mm(grad_y_pred)
+    grad_h_relu = grad_y_pred.mm(w2.t())
+    grad_h = grad_h_relu.clone()
+    grad_h[h < 0] = 0
+    grad_w1 = x.t().mm(grad_h)
+ 
+    # Update weights using gradient descent
+    w1 -= learning_rate * grad_w1
+    w2 -= learning_rate * grad_w2
+
+```
+
+运行该测试代码
+
+```
+python pytorch_tensors.py
+```
+
+输入结果如下：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220015951900.png)
+
+
+## 测试3：MNIST
+
+创建并打开新的脚本文件pytorch_mnist.py
+
+```
+touch pytorch_mnist.py
+gedit pytorch_mnist.py
+```
+
+写入测试代码：
+
+```python
 # Summary: 使用PyTorch玩转MNIST 
 # Author:  Amusi
 # Date:    2018-12-20 
@@ -130,3 +326,22 @@ if __name__ == '__main__':
     for epoch in range(1, args.epochs + 1):
         train(epoch)
         test(epoch)
+```
+
+运行该测试代码
+
+```
+python pytorch_mnist.py
+```
+
+输入结果如下：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220020013914.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FtdXNpMTk5NA==,size_16,color_FFFFFF,t_70)
+
+# 参考
+
+- https://pytorch.org/
+
+- https://github.com/amusi/PyTorch-From-Zero-To-One
+
+- https://blog.csdn.net/amusi1994/article/details/80077667

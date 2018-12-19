@@ -1,9 +1,8 @@
-# Summary: 使用PyTorch玩转MNIST 
-# Author:  Amusi
-# Date:    2018-12-20 
-# github:  https://github.com/amusi/PyTorch-From-Zero-To-One
+# Summary:   
+# Author:    Amusi
+# Date:      2018-03-31
 # Reference: https://blog.csdn.net/victoriaw/article/details/72354307
- 
+
 from __future__ import print_function
 import argparse
 import torch
@@ -12,7 +11,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.autograd import Variable
- 
+
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
 parser.add_argument('--batch-size', type=int, default=64, metavar='N',
@@ -33,12 +32,12 @@ parser.add_argument('--log-interval', type=int, default=10, metavar='N',
                     help='how many batches to wait before logging training status')
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
- 
+
 torch.manual_seed(args.seed) #为CPU设置种子用于生成随机数，以使得结果是确定的
 if args.cuda:
     torch.cuda.manual_seed(args.seed)#为当前GPU设置随机种子；如果使用多个GPU，应该使用torch.cuda.manual_seed_all()为所有的GPU设置种子。
- 
- 
+
+
 kwargs = {'num_workers': 1, 'pin_memory': True} if args.cuda else {}
 """加载数据。组合数据集和采样器，提供数据上的单或多进程迭代器
 参数：
@@ -64,8 +63,8 @@ test_loader = torch.utils.data.DataLoader(
                        transforms.Normalize((0.1307,), (0.3081,))
                    ])),
     batch_size=args.batch_size, shuffle=True, **kwargs)
- 
- 
+
+
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
@@ -74,7 +73,7 @@ class Net(nn.Module):
         self.conv2_drop = nn.Dropout2d()#随机选择输入的信道，将其设为0
         self.fc1 = nn.Linear(320, 50)#输入的向量大小和输出的大小分别为320和50
         self.fc2 = nn.Linear(50, 10)
- 
+
     def forward(self, x):
         x = F.relu(F.max_pool2d(self.conv1(x), 2))#conv->max_pool->relu
         x = F.relu(F.max_pool2d(self.conv2_drop(self.conv2(x)), 2))#conv->dropout->max_pool->relu
@@ -83,13 +82,13 @@ class Net(nn.Module):
         x = F.dropout(x, training=self.training)#dropout
         x = self.fc2(x)
         return F.log_softmax(x)
- 
+
 model = Net()
 if args.cuda:
     model.cuda()#将所有的模型参数移动到GPU上
- 
+
 optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum)
- 
+
 def train(epoch):
     model.train()#把module设成training模式，对Dropout和BatchNorm有影响
     for batch_idx, (data, target) in enumerate(train_loader):
@@ -104,8 +103,8 @@ def train(epoch):
         if batch_idx % args.log_interval == 0:
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset),
-                100. * batch_idx / len(train_loader), loss.item()))
- 
+                100. * batch_idx / len(train_loader), loss.data[0]))
+
 def test(epoch):
     model.eval()#把module设置为评估模式，只对Dropout和BatchNorm模块有影响
     test_loss = 0
@@ -115,17 +114,17 @@ def test(epoch):
             data, target = data.cuda(), target.cuda()
         data, target = Variable(data, volatile=True), Variable(target)
         output = model(data)
-        test_loss += F.nll_loss(output, target).item()#Variable.data
+        test_loss += F.nll_loss(output, target).data[0]#Variable.data
         pred = output.data.max(1)[1] # get the index of the max log-probability
         correct += pred.eq(target.data).cpu().sum()
- 
+
     test_loss = test_loss
     test_loss /= len(test_loader) # loss function already averages over batch size
     print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
         test_loss, correct, len(test_loader.dataset),
         100. * correct / len(test_loader.dataset)))
- 
- 
+
+
 if __name__ == '__main__':
     for epoch in range(1, args.epochs + 1):
         train(epoch)

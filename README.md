@@ -3,7 +3,14 @@ PyTorch 从入门到精通
 
 此学习计划还没正式开始，偶尔会上传一些小示例。
 
+# 学习
 
+安装教程
+
+- [Ubuntu](examples/Python1.0_Install.md)
+- [Windows](https://blog.csdn.net/amusi1994/article/details/80077667)
+
+# 相关资源
 
 - [官网](http://pytorch.org/)
 
