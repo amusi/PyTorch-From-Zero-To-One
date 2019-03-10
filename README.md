@@ -30,6 +30,7 @@ PyTorch 从入门到精通
   - [PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)
   - [DLwithPyTorch](https://github.com/svishnu88/DLwithPyTorch)
   - **（推荐）**[pytorch-book](https://github.com/chenyuntc/pytorch-book)：建议买书配套学习
+  - **（推荐）**[pytorch-handbook](https://github.com/zergtant/pytorch-handbook)：pytorch handbook是一本开源的书籍
   - [the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)
   - [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
   - [pytorch-beginer](https://github.com/L1aoXingyu/pytorch-beginner)
