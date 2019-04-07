@@ -1,45 +1,92 @@
 # PyTorch-From-Zero-To-One
-PyTorch 从入门到精通
+PyTorch 从入门到精通：记录自己学习TensorFlow的参考资料、笔记和代码
 
-此学习计划还没正式开始，偶尔会上传一些小示例。
+注：♥ 表示推荐指数，越多越好
 
-# 学习
+## 笔记
 
 安装教程
 
 - [Ubuntu](examples/Python1.0_Install.md)
 - [Windows](https://blog.csdn.net/amusi1994/article/details/80077667)
 
-# 相关资源
+## PyTorch参考学习资料
 
-- [官网](http://pytorch.org/)
+### PyTorch入门指南
 
-- [学习教程](http://pytorch.org/)
+[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)：A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
 
-- - [PyTorch中文网](http://www.pytorchtutorial.com/)
-  - [Simple PyTorch Tutorials Zero to ALL](https://github.com/hunkim/PyTorchZeroToAll)  [香港科技大学PyTorch教程及GitHub代码](http://www.pytorchtutorial.com/hongkong-pytorch-in-four-days/) [ 百度云](https://pan.baidu.com/s/1cpoyXw)
-  - [莫凡PyTorch教学](https://morvanzhou.github.io/tutorials/machine-learning/torch/)
+[知乎：新手如何入门PyTorch](https://www.zhihu.com/question/55720139)
 
-- [知乎：新手如何入门PyTorch](https://www.zhihu.com/question/55720139)
+[PyTorch：60分钟入门](http://pytorch.org/tutorials/)
 
-- **github**
+[the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)：The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
-- - [pytorch](https://github.com/pytorch/pytorch)：官网github
-  - **（强力推荐）**[pytorch-examples](https://github.com/pytorch/examples)：官网示例
-  - **（强力推荐）**[pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
-  - [PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)
-  - [DLwithPyTorch](https://github.com/svishnu88/DLwithPyTorch)
-  - **（推荐）**[pytorch-book](https://github.com/chenyuntc/pytorch-book)：建议买书配套学习
-  - **（推荐）**[pytorch-handbook](https://github.com/zergtant/pytorch-handbook)：pytorch handbook是一本开源的书籍
-  - [the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)
-  - [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
-  - [pytorch-beginer](https://github.com/L1aoXingyu/pytorch-beginner)
+### 官网&社区
 
-- **书籍**
+**国外**
 
-- - 深度学习入门之PyTorch  [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)  
+- **（♥♥♥♥♥）**[PyTorch官网](http://pytorch.org/)
+- **（♥♥♥♥♥）**[GitHub：PyTorch](https://github.com/pytorch/pytorch)
+- **（♥♥♥♥）**[Twitter：PyTorch](https://twitter.com/pytorch)：官方维护，分享最快动态
+- **（♥♥♥♥）**[PyTorch官方论坛](https://discuss.pytorch.org/)
 
+**国内**
 
-- - - 电子书链接：https://pan.baidu.com/s/14IVOnObAd4AE6GpMHl2lQg 密码：ot1g
+- [PyTorch中文文档&教程](https://pytorch.apachecn.org/#/)
 
-  - （推荐，但暂时下载不到电子版）[Introduction to Artificial Neural Networks and Deep Learning: A Practical Guide with Applications in Python](https://github.com/rasbt/deep-learning-book)
+- [知乎话题：PyTorch](https://www.zhihu.com/topic/20075993/hot)
+
+### 在线教程
+
+**国外**
+
+- **（♥♥♥♥♥）**[PyTorch：Doc](http://pytorch.org/docs/)
+- **（♥♥♥♥♥）**[pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)：PyTorch Tutorial for Deep Learning Researchers
+- **（♥♥♥♥♥）**[practicalAI](https://github.com/GokuMohandas/practicalAI/)：Implement basic ML algorithms and deep neural networks with [PyTorch](https://pytorch.org/).
+- **（♥♥♥♥）**[practical-pytorch](https://github.com/spro/practical-pytorch)：PyTorch tutorials demonstrating modern techniques with readable code
+- **（♥♥♥♥）**[Deep Learning with PyTorch](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG)：This series is all about neural network programming and PyTorch! 
+- **（♥♥♥）**[pytorch-examples](https://github.com/jcjohnson/pytorch-examples)：Simple examples to introduce PyTorch
+- **（♥♥♥）**[PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)：Simple PyTorch Tutorials Zero to ALL!
+
+**国内**
+
+- **（♥♥♥♥♥）**[pytorch-book](https://github.com/chenyuntc/pytorch-book)：PyTorch tutorials and fun projects including neural talk, neural style, poem writing, anime generation
+- **（♥♥♥♥♥）**[莫凡：PyTorch教学](https://morvanzhou.github.io/tutorials/machine-learning/torch/)：Build your neural network easy and fast
+- **（♥♥♥♥♥）**[pytorch-handbook](https://github.com/zergtant/pytorch-handbook)：pytorch handbook是一本开源的书籍
+- **（♥♥♥♥♥）**[PyTorch_Tutorial](https://github.com/tensor-yu/PyTorch_Tutorial)：《Pytorch模型训练实用教程》中配套代码 [PyTorch学习笔记](https://zhuanlan.zhihu.com/c_1056853059086430208)
+
+### 视频教程
+
+**国外**
+
+- **（♥♥♥♥♥）**[Intro to Deep Learning with PyTorch](https://cn.udacity.com/course/deep-learning-pytorch--ud188)：优达免费课程
+
+**国内**
+
+- **（♥♥♥♥♥）**[莫凡：PyTorch教学](https://morvanzhou.github.io/tutorials/machine-learning/torch/)
+
+### 书籍资源
+
+**国外**
+
+- **（♥♥♥）**[Introduction to Artificial Neural Networks and Deep Learning: A Practical Guide with Applications in Python](https://github.com/rasbt/deep-learning-book)
+
+**国内**
+
+- **（♥♥♥♥♥）**[《深度学习框架PyTorch：入门与实践》](https://book.douban.com/subject/27624483/) [github](https://github.com/chenyuntc/pytorch-book)
+
+### 实战项目
+
+- **（♥♥♥♥♥）**[pytorch-examples](https://github.com/pytorch/examples)：官网示例
+- **（♥♥♥♥♥）**[pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch)：Pretrained ConvNets for pytorch: NASNet, ResNeXt, ResNet, InceptionV4, InceptionResnetV2, Xception, DPN, etc.
+- **（♥♥♥♥）**[maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)：Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch.
+- **（♥♥♥♥）**[mmdetection](https://github.com/open-mmlab/mmdetection)：Open MMLab Detection Toolbox with PyTorch 1.0
+- **（♥♥♥♥）**[pytorch-semseg](https://github.com/meetshah1995/pytorch-semseg)：Semantic Segmentation Architectures Implemented in PyTorch
+- **（♥♥♥）**[faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch)
+
+- **（♥♥♥）**[ssd.pytorch](https://github.com/amdegroot/ssd.pytorch)
+- [semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
+- [pytorch-pretrained-BERT](https://github.com/huggingface/pytorch-pretrained-BERT)
+- [torchcv](https://github.com/youansheng/torchcv)：A PyTorch-Based Framework for Deep Learning in Computer Vision
+- https://github.com/devnag/pytorch-generative-adversarial-networks
