@@ -1,7 +1,9 @@
 # PyTorch-From-Zero-To-One
-PyTorch 从入门到精通：记录自己学习TensorFlow的参考资料、笔记和代码
+PyTorch 从入门到精通：记录自己学习 PyTorch 的参考资料、笔记和代码
 
-注：♥ 表示推荐指数，越多越好
+> 注1：♥ 表示推荐指数，越多越好
+
+> 注2：TensorFlow从入门到精通请参考：[TensorFlow-From-Zero-To-One](https://github.com/amusi/TensorFlow-From-Zero-To-One)
 
 ## 笔记
 
