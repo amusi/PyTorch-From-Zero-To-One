@@ -24,6 +24,8 @@ PyTorch 从入门到精通：记录自己学习 PyTorch 的参考资料、笔记
 
 [the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)：The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch.
 
+[PyTorch internals](http://blog.ezyang.com/2019/05/pytorch-internals/)：This post is a long form essay version of a talk about PyTorch internals.
+
 ### 官网&社区
 
 **国外**
