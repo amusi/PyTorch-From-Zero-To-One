@@ -64,7 +64,8 @@ PyTorch 从入门到精通：记录自己学习 PyTorch 的参考资料、笔记
 
 **国外**
 
-- **（♥♥♥♥♥）**[Intro to Deep Learning with PyTorch](https://cn.udacity.com/course/deep-learning-pytorch--ud188)：优达免费课程
+- **（♥♥♥♥♥）**[Neural Network Programming - Deep Learning with PyTorch](https://www.youtube.com/watch?v=v5cngxo4mIg&list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG)  
+- **（♥♥♥♥）**[Intro to Deep Learning with PyTorch](https://cn.udacity.com/course/deep-learning-pytorch--ud188)：优达免费课程
 
 **国内**
 
