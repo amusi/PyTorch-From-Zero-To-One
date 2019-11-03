@@ -58,7 +58,8 @@ PyTorch 从入门到精通：记录自己学习 PyTorch 的参考资料、笔记
 - **（♥♥♥♥♥）**[pytorch-book](https://github.com/chenyuntc/pytorch-book)：PyTorch tutorials and fun projects including neural talk, neural style, poem writing, anime generation
 - **（♥♥♥♥♥）**[莫凡：PyTorch教学](https://morvanzhou.github.io/tutorials/machine-learning/torch/)：Build your neural network easy and fast
 - **（♥♥♥♥♥）**[pytorch-handbook](https://github.com/zergtant/pytorch-handbook)：pytorch handbook是一本开源的书籍
-- **（♥♥♥♥♥）**[PyTorch_Tutorial](https://github.com/tensor-yu/PyTorch_Tutorial)：《Pytorch模型训练实用教程》中配套代码 [PyTorch学习笔记](https://zhuanlan.zhihu.com/c_1056853059086430208)
+- **（♥♥♥♥）**[Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch)：本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为PyTorch实现。
+- **（♥♥♥♥）**[PyTorch_Tutorial](https://github.com/tensor-yu/PyTorch_Tutorial)：《Pytorch模型训练实用教程》中配套代码 [PyTorch学习笔记](https://zhuanlan.zhihu.com/c_1056853059086430208)
 
 ### 视频教程
 
