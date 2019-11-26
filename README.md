@@ -78,11 +78,13 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 
 **国外**
 
+-  **（♥♥♥♥♥）**[Deep Learning with PyTorch](https://www.manning.com/books/deep-learning-with-pytorch)：LeCun力荐，PyTorch官方权威教程书  [github代码]( https://github.com/deep-learning-with-pytorch/dlwpt-code )
+
 - **（♥♥♥）**[Introduction to Artificial Neural Networks and Deep Learning: A Practical Guide with Applications in Python](https://github.com/rasbt/deep-learning-book)
 
 **国内**
 
-- **（♥♥♥♥♥）**[《深度学习框架PyTorch：入门与实践》](https://book.douban.com/subject/27624483/) [github](https://github.com/chenyuntc/pytorch-book)
+- ~~**（♥♥♥♥♥）**[《深度学习框架PyTorch：入门与实践》](https://book.douban.com/subject/27624483/)~~  [github](https://github.com/chenyuntc/pytorch-book)
 
 ### 实战项目
 
