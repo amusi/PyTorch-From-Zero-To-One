@@ -50,6 +50,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - **（♥♥♥♥♥）**[practicalAI](https://github.com/GokuMohandas/practicalAI/)：Implement basic ML algorithms and deep neural networks with [PyTorch](https://pytorch.org/).
 - **（♥♥♥♥）**[practical-pytorch](https://github.com/spro/practical-pytorch)：PyTorch tutorials demonstrating modern techniques with readable code
 - **（♥♥♥♥）**[Deep Learning with PyTorch](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG)：This series is all about neural network programming and PyTorch! 
+- **（♥♥♥）**[pytorch-cpp]( https://github.com/prabhuomkar/pytorch-cpp )：C++ Implementation of PyTorch Tutorial for Deep Learning Researchers
 - **（♥♥♥）**[pytorch-examples](https://github.com/jcjohnson/pytorch-examples)：Simple examples to introduce PyTorch
 - **（♥♥♥）**[PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)：Simple PyTorch Tutorials Zero to ALL!
 
@@ -90,11 +91,10 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 
 - **（♥♥♥♥♥）**[pytorch-examples](https://github.com/pytorch/examples)：官网示例
 - **（♥♥♥♥♥）**[pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch)：Pretrained ConvNets for pytorch: NASNet, ResNeXt, ResNet, InceptionV4, InceptionResnetV2, Xception, DPN, etc.
-- **（♥♥♥♥）**[maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)：Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch.
+- **（♥♥♥♥）**[Detectron2]( https://github.com/facebookresearch/detectron2)：FAIR's next-generation research platform for object detection and segmentation.
 - **（♥♥♥♥）**[mmdetection](https://github.com/open-mmlab/mmdetection)：Open MMLab Detection Toolbox with PyTorch 1.0
 - **（♥♥♥♥）**[pytorch-semseg](https://github.com/meetshah1995/pytorch-semseg)：Semantic Segmentation Architectures Implemented in PyTorch
 - **（♥♥♥）**[faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch)
-
 - **（♥♥♥）**[ssd.pytorch](https://github.com/amdegroot/ssd.pytorch)
 - [semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 - [pytorch-pretrained-BERT](https://github.com/huggingface/pytorch-pretrained-BERT)
