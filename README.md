@@ -104,3 +104,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 ### 搭档工具
 
 - [PyTorch Lightning](https://github.com/williamFalcon/pytorch-lightning)：Lightning is a very lightweight wrapper on PyTorch.
+
+### 其他资料
+
+- [Awesome-PyTorch-list](https://github.com/bharathgs/Awesome-pytorch-list)   [中文版](https://github.com/xavier-zy/Awesome-pytorch-list-CNVersion)
