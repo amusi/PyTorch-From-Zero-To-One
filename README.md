@@ -16,7 +16,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 
 ### PyTorch入门指南
 
-[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)：A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
+[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)  [中文版]( https://github.com/xavier-zy/Awesome-pytorch-list-CNVersion )：A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc.
 
 [知乎：新手如何入门PyTorch](https://www.zhihu.com/question/55720139)
 
