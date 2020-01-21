@@ -66,6 +66,8 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 
 **国外**
 
+- **（♥♥♥♥）**[Deep Learning with PyTorch]( https://www.youtube.com/playlist?list=PLyMom0n-MBroupZiLfVSZqK5asX8KfoHL )
+
 -  **（♥♥♥♥）**[PyTorch - Deep Learning with Python](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdeMyHEYc0gxFpYwHY2Qfdh)
 
 - **（♥♥♥）**[Neural Network Programming - Deep Learning with PyTorch](https://www.youtube.com/watch?v=v5cngxo4mIg&list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG)  
