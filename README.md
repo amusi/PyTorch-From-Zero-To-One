@@ -50,6 +50,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - **（♥♥♥♥♥）**[practicalAI](https://github.com/GokuMohandas/practicalAI/)：Implement basic ML algorithms and deep neural networks with [PyTorch](https://pytorch.org/).
 - **（♥♥♥♥）**[practical-pytorch](https://github.com/spro/practical-pytorch)：PyTorch tutorials demonstrating modern techniques with readable code
 - **（♥♥♥♥）**[Deep Learning with PyTorch](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG)：This series is all about neural network programming and PyTorch! 
+- **（♥♥♥）**[Minicourse in Deep Learning with PyTorch](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)：Mini Course in Deep Learning with PyTorch for AIMS
 - **（♥♥♥）**[pytorch-cpp]( https://github.com/prabhuomkar/pytorch-cpp )：C++ Implementation of PyTorch Tutorial for Deep Learning Researchers
 - **（♥♥♥）**[pytorch-examples](https://github.com/jcjohnson/pytorch-examples)：Simple examples to introduce PyTorch
 - **（♥♥♥）**[PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)：Simple PyTorch Tutorials Zero to ALL!
