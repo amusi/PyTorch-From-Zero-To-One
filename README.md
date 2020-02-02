@@ -97,8 +97,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - **（♥♥♥♥）**[Detectron2]( https://github.com/facebookresearch/detectron2)：FAIR's next-generation research platform for object detection and segmentation.
 - **（♥♥♥♥）**[mmdetection](https://github.com/open-mmlab/mmdetection)：Open MMLab Detection Toolbox with PyTorch 1.0
 - **（♥♥♥♥）**[pytorch-semseg](https://github.com/meetshah1995/pytorch-semseg)：Semantic Segmentation Architectures Implemented in PyTorch
-- **（♥♥♥）**[faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch)
-- **（♥♥♥）**[ssd.pytorch](https://github.com/amdegroot/ssd.pytorch)
+- [PyTorch-Deep-Learning-Template](https://github.com/FrancescoSaverioZuppichini/PyTorch-Deep-Learning-Template)
 - [semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 - [pytorch-pretrained-BERT](https://github.com/huggingface/pytorch-pretrained-BERT)
 - [torchcv](https://github.com/youansheng/torchcv)：A PyTorch-Based Framework for Deep Learning in Computer Vision
