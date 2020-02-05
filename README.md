@@ -103,9 +103,10 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - [torchcv](https://github.com/youansheng/torchcv)：A PyTorch-Based Framework for Deep Learning in Computer Vision
 - https://github.com/devnag/pytorch-generative-adversarial-networks
 
-### 搭档工具
+### 生态工具
 
 - [PyTorch Lightning](https://github.com/williamFalcon/pytorch-lightning)：Lightning is a very lightweight wrapper on PyTorch.
+- [Hydra]( https://hydra.cc/ )：A framework for elegantly configuring complex applications 
 
 ### 其他资料
 
