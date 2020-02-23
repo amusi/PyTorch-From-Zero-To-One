@@ -109,9 +109,9 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 ### 生态工具
 
 - [Ecosystem Tools]( https://pytorch.org/ecosystem/ )：官方认证的PyTorch生态圈工具列表，含几十个工具包，强烈推荐！
-
 - [PyTorch Lightning](https://github.com/williamFalcon/pytorch-lightning)：Lightning is a very lightweight wrapper on PyTorch.
 - [Hydra]( https://hydra.cc/ )：A framework for elegantly configuring complex applications 
+- [Torchmeta](https://github.com/tristandeleu/pytorch-meta)：PyTorch 少样本学习和元学习库 
 
 ### 其他资料
 
