@@ -114,6 +114,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - [Hydra]( https://hydra.cc/ )：A framework for elegantly configuring complex applications 
 - [Torchmeta](https://github.com/tristandeleu/pytorch-meta)：PyTorch 少样本学习和元学习库
 - [Torch Optimizer](https://github.com/jettify/pytorch-optimizer)：PyTorch优化器工具库
+- [Pytorch-Toolbox](https://github.com/PistonY/torch-toolbox)
 
 ### 其他资料
 
