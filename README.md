@@ -115,6 +115,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - [Torchmeta](https://github.com/tristandeleu/pytorch-meta)：PyTorch 少样本学习和元学习库
 - [Torch Optimizer](https://github.com/jettify/pytorch-optimizer)：PyTorch优化器工具库
 - [Pytorch-Toolbox](https://github.com/PistonY/torch-toolbox)
+- [Eisen](http://eisen.ai/)：a python package for solid deep learning
 
 ### 其他资料
 
