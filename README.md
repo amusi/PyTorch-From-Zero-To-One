@@ -117,6 +117,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - [Pytorch-Toolbox](https://github.com/PistonY/torch-toolbox)
 - [Eisen](http://eisen.ai/)：a python package for solid deep learning
 - [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch)：A PyTorch toolbox for domain adaptation and semi-supervised learning.
+- [PyRetri](https://github.com/PyRetri/PyRetri)：基于PyTorch的无监督图像检索工具库
 
 
 ### 其他资料
