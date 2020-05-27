@@ -92,6 +92,10 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 
 - ~~**（♥♥♥♥♥）**[《深度学习框架PyTorch：入门与实践》](https://book.douban.com/subject/27624483/)~~  [github](https://github.com/chenyuntc/pytorch-book)
 
+### 经验&技巧
+
+- **（♥♥♥♥♥）**[PyTorchTricks](https://github.com/lartpang/PyTorchTricks) 
+
 ### 实战项目
 
 - **（♥♥♥♥♥）**[pytorch-examples](https://github.com/pytorch/examples)：官网示例
