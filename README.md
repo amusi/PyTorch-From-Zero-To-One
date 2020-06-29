@@ -125,6 +125,11 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - [Kornia](https://github.com/kornia/kornia)：Open Source Differentiable Computer Vision Library for PyTorch
 - [FastReID](https://github.com/JDAI-CV/fast-reid): 一个面向学术界和工业界的 ReID Toolbox
 
+### PyTorch技巧
+
+- [Pytorch有什么节省显存的小技巧？](https://www.zhihu.com/question/274635237)
+- [PyTorch 有哪些坑/bug？](https://www.zhihu.com/question/67209417)
+
 
 ### 其他资料
 
