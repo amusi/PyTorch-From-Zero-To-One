@@ -125,6 +125,7 @@ PyTorch 从入门到精通：含入门指南、在线教程、视频教程和书
 - [Kornia](https://github.com/kornia/kornia)：Open Source Differentiable Computer Vision Library for PyTorch
 - [FastReID](https://github.com/JDAI-CV/fast-reid): 一个面向学术界和工业界的 ReID Toolbox
 - [KAIR](https://github.com/cszn/KAIR)：基于PyTorch的图像复原/修复工具箱（支持训练和测试）
+- [FAIRScale](https://github.com/facebookresearch/fairscale)：用于高性能和大规模训练的PyTorch工具
 
 ### PyTorch技巧
 
